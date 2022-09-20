@@ -28,6 +28,16 @@ Let's take a look at this HTML code to better understand the DOM tree structure:
 </html>
 ```
 
+Our Document is called the root node and contains a children node which is the HTML. The HTML contains two children which is `head` and `body` elements.
+
+Both `head` and `body` elements have children their own.
+
+Here is another way to visualize this tree of nodes.
+
+![tree-nodes](/images/tree-nodes.jpg)
+
+We can access these elements in the document and make changes to them by JavaScript.
+
 ### Reference:
 
 - https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/

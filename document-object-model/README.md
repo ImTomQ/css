@@ -71,7 +71,7 @@ In JavaScript, we can grab an HTML tag by referencing to `id` name:
 document.getElementById("id name goes here")
 ```
 
-This code tells the computer to get `p` element with id of `para1` and print element to the console
+This code tells the computer to get `<p />` element with id of `para1` and print element to the console
 
 ```
 const paragraph1 = document.getElementById("para1");

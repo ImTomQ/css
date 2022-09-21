@@ -1,18 +1,5 @@
 This is **_my css study document_** with good tricks, new ideas that it is cool!!!
 
-## Deep dive into JavaScript event bubbling and caturing.
+## [DOM - The Document Object Model](https://github.com/ImTomQ/html-css/tree/develop/document-object-model#document-object-model-dom)
 
-If an element and it's parent have an event handler for the same event, which element will work first when triggered?
-
-Let's start with an example:
-This handler is assigned to `<div>`, but also runs if click any nested tag like `<em>` or `<code>`:
-
-```
-<div onclick="alert('The handler!')">
-  <em>If you click on <code>EM</code>, the handler on <code>DIV</code> runs.</em>
-</div>
-```
-
-### Reference
-
-- https://blog.logrocket.com/deep-dive-into-event-bubbling-and-capturing/
+### [Event bubbling and capturing](https://github.com/ImTomQ/html-css/tree/develop/document-object-model/event-bubbling-caturing#deep-dive-into-javascript-event-bubbling-and-caturing)

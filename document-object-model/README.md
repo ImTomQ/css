@@ -38,6 +38,48 @@ Here is another way to visualize this tree of nodes.
 
 We can access these elements in the document and make changes to them by JavaScript.
 
+### How to Select Elements in the Document
+
+There have few different methods to select an element in HTML document. <br />
+In this article, we will forcus this three methods:
+
+- getElementById()
+- querySelector()
+- querySelectorAll()
+
+#### getElement()
+
+In the HTML, `id`s are used as identify uniques for HTML elements . It means you cann't have the same `id` name for two different elements. <br />
+
+This would be incorrect:
+
+```
+<p id="para">This is my first paragraph.</p>
+<p id="para">This is my second paragraph.</p>
+```
+
+You would have to make sure those `id`s is unique like this:
+
+```
+<p id="para1">This is my first paragraph.</p>
+<p id="para2">This is my second paragraph.</p>
+```
+
+In JavaScript, we can grab an HTML tag by referencing to `id` name:
+
+```
+document.getElementById("id name goes here")
+```
+
+This code tells the computer to get `p` element with id of `para1` and print element to the console
+
+```
+const paragraph1 = document.getElementById("para1");
+console.log(paragraph1);
+```
+
+If we wanted to only read content of paragraph, then we can use `textContent` property inside `console.log()`
+
 ### Reference:
 
 - https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/
